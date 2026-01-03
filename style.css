@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+   /* border: 2px solid black;*/
+   background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+.navbar ul{
+    display: flex;
+    gap: 40px;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    width: 100%;
+    height: 70vh;
+    /*border: 2px solid red;*/
+    display: flex;
+    background-color: whitesmoke;
+}
+.left{
+    width: 50%;
+    height: 100%;
+   /* border: 2px solid black;*/
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.right img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 40px;
+}
+.left p{
+    color: gray;
+}
+.left button{
+    padding: 10px 20px;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 25px;
+}
+.container2{
+    width: 100%;
+    height:100%;
+    background-color: whitesmoke    ;
+    display: flex;
+}
+.card-data{
+    width: 100%;
+    height: 100%;
+   /* border: 2px solid red;*/
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+}
+.card1{
+    width: 25%;
+    height: 100%;
+   /* border: 2px solid black;*/
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card1 img{
+    width: 100%;
+    height: 40%;
+}
+.card1 button{
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+}
+.card2{
+    width: 25%;
+    height: 100%;
+   /* border: 2px solid black;*/
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card2 img{
+    width: 100%;
+    height: 40%;
+}
+.card2 button{
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+}
+.card3{
+    width: 25%;
+    height: 100%;
+    /*border: 2px solid black;*/
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card3 img{
+    width: 100%;
+    height: 40%;
+}
+.card3 button{
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+}
